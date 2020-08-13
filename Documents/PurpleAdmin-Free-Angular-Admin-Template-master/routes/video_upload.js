@@ -13,7 +13,7 @@ const path = require('path');
 const crypto = require('crypto');
 //const db = "mongodb://testuser:testpw@ds123136.mlab.com:23136/eventsdb";
 //const db= "mongodb+srv://schooladmin:schooladmin@cluster0.p2lag.mongodb.net/eventsdb";
-const db= "mongodb://216.10.242.121:27017";
+const db= "mongodb://school:schoolpassword@216.10.242.121:27017/eventsdb";
 
 
 const conn = mongoose.createConnection(db);

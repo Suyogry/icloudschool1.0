@@ -15,7 +15,7 @@ const crypto = require('crypto');
 //const db='mongodb+srv://shubham:shubham@cluster0-bsw0a.mongodb.net/mongouploads?retryWrites=true&w=major';
 //const db="mongodb+srv://mongouser:mongopass@oceanmaster-p2lag.mongodb.net/eventsdb?retryWrites=true&w=major";
 //const db= "mongodb+srv://schooladmin:schooladmin@cluster0.p2lag.mongodb.net/eventsdb";
-const db= "mongodb://216.10.242.121:27017";
+const db= "mongodb://school:schoolpassword@216.10.242.121:27017/eventsdb";
 
 
 const conn = mongoose.createConnection(db);
